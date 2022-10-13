@@ -7,11 +7,11 @@
 #include "ThingSpeak.h"
 
 //INTERNET
-#define SECRET_SSID "yaya"          // replace MySSID with your WiFi network name
-#define SECRET_PASS "alyazulaikha"  // replace MyPassword with your WiFi password
+#define SECRET_SSID "user"          // replace MySSID with your WiFi network name
+#define SECRET_PASS "passwrd"  // replace MyPassword with your WiFi password
 
-#define SECRET_CH_ID 1884273                    // replace 0000000 with your channel number
-#define SECRET_WRITE_APIKEY "9648VSSMTSOK3U2H"  // replace XYZ with your channel write API Key
+#define SECRET_CH_ID 00000                    // replace 0000000 with your channel number
+#define SECRET_WRITE_APIKEY "api"  // replace XYZ with your channel write API Key
 #define CCS811_ADDR 0x5A
 
 char ssid[] = SECRET_SSID;  // your network SSID (name)
