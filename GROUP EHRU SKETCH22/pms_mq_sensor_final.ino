@@ -12,11 +12,11 @@ SoftwareSerial pmSerial(12, 14);
 Adafruit_PM25AQI aqi = Adafruit_PM25AQI();
 
 //INTERNET
-#define SECRET_SSID "realme 5s"    // replace MySSID with your WiFi network name
-#define SECRET_PASS "5b81043e7ff0"  // replace MyPassword with your WiFi password
+#define SECRET_SSID "username"    // replace MySSID with your WiFi network name
+#define SECRET_PASS "password"  // replace MyPassword with your WiFi password
 
-#define SECRET_CH_ID 1884250     // replace 0000000 with your channel number
-#define SECRET_WRITE_APIKEY "E1UIOCDUNNOHV2BL"   // replace XYZ with your channel write API Key
+#define SECRET_CH_ID 000000     // replace 0000000 with your channel number
+#define SECRET_WRITE_APIKEY "API KEY"   // replace XYZ with your channel write API Key
 
 char ssid[] = SECRET_SSID;   // your network SSID (name)
 char pass[] = SECRET_PASS;   // your network password
